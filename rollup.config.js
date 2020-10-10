@@ -30,7 +30,7 @@ export default [
     plugins: [
       resolve({ mainFields: ["module", "main", "browser"] }),
       commonjs(),
-      babel(),
+      babel()
       // terser()
     ]
   }
