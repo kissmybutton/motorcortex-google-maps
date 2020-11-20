@@ -75,5 +75,7 @@ module.exports = {
     historyApiFallback: false,
     hot: false,
     contentBase: "./demo"
+  },node: {
+    fs: "empty",
   }
 };

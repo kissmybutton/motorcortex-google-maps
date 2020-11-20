@@ -1,7 +1,7 @@
 import MC from "@kissmybutton/motorcortex";
 import { Loader, LoaderOptions } from "google-maps";
 
-export default class olMap extends MC.API.DOMClip {
+export default class olMap extends MC.BrowserClip {
   onAfterRender() {
     const loader = new Loader("AIzaSyA_hEYSWVXFGVfesIRwE6BmQeQzktlKXso", {});
 

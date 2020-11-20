@@ -1,6 +1,6 @@
 import MC from "@kissmybutton/motorcortex";
 
-export default class ZoomTo extends MC.API.MonoIncident {
+export default class ZoomTo extends MC.Effect {
   onProgress(progress /*, millisecond*/) {
     const moscow = [37.6178, 55.7517];
     if (this.element.entity.map.getZoom() !== parseInt(11 + progress * 20)) {
